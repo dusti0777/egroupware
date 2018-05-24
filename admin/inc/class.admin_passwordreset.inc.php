@@ -8,7 +8,15 @@
  * @copyright (c) 2011-16 by Ralf Becker <RalfBecker-AT-outdoor-training.de>
  * @license http://opensource.org/licenses/gpl-license.php GPL - GNU General Public License
  * @version $Id$
- */
+
+
+ * NOTE - WARNING - This function still relies on the old phpgwapi : https://github.com/EGroupware/phpgwapi
+ * Just download the phpgwapi to your egroupware root folder: (e.g. : /usr/share/egroupware)  
+ * After that no more error:  class 'send' not found when trying to notify users about their passwd reset! 
+
+
+
+*/
 
 include_once(EGW_INCLUDE_ROOT.'/setup/inc/hook_config.inc.php');	// functions to return password hashes
 
